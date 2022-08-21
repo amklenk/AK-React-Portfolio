@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header (){
 return(
-<div id="header">
+<header id="header">
     <h2 class="nav-name">AMANDA KLENK</h2>
     <nav class="nav-links">
         <ul id="nav-ul">
@@ -23,7 +23,7 @@ return(
             </li>
         </ul>
     </nav>
-</div>
+</header>
 )
 }
 
