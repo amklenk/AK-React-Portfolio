@@ -28,6 +28,50 @@ body {
 }
 /*end body styling*/
 
+/*header*/
+#header,
+#footer {
+  background-color: rgba(53, 72, 102, 0.95);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header {
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  color: var(--quarternary-color);
+  padding: 5px 10px;
+}
+
+#header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-links li {
+  list-style: none;
+  color: var(--quarternary-color);
+  display: inline;
+  margin: 5px 10px 5px 10px;
+  font-size: 20px;
+}
+
+.nav-links li:hover {
+  background-color: var(--quarternary-color);
+  box-shadow: var(--box-shadow-glow);
+}
+
+.nav-links li a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+/*end header styling*/
+
 /* About section styling */
 #bioinfodiv {
   display: flex;
