@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: #344966;
+  --secondary-color: #F28C28;
+  --tertiary-color: #0d1821;
+  --quarternary-color: #fff;
+  --quinary-color: #d6e3f8;
+  --box-shadow-glow: 0 0 5px 5px #fff;
+  --default-margin: 10px;
+  --tile-border: 2px solid ##d6e3f8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*browser styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+/*end broswer styling*/
+
+/*body styling*/
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+/*end body styling*/
+
+/* About section styling */
+#bioinfodiv {
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+
+#about-text {
+  text-align: center;
+  align-self: center;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+/* About section end */
