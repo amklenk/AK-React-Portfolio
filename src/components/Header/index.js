@@ -1,13 +1,18 @@
 import React from 'react';
 
+const headerStyles = {
+    textDecoration: "none",
+    color: "white"
+}
+
 function Header (){
 return(
 <header id="header">
     <h2 class="nav-name">AMANDA KLENK</h2>
     <nav class="nav-links">
-        <ul id="nav-ul">
+        <ul id="nav-ul" >
             <li class="nav-sections">
-                <a href="#about-section">About</a>
+                <a href="#about-section" style={headerStyles}>About</a>
             </li>
             <li class="nav-sections">
                 <span>Skills</span>

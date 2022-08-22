@@ -62,7 +62,6 @@ body {
 }
 
 .nav-links li:hover {
-  background-color: var(--quarternary-color);
   box-shadow: var(--box-shadow-glow);
 }
 
