@@ -8,20 +8,20 @@ import freeCode from '../../assets/icons/fCC-icon.png';
 
 function Footer(){
     return(
-        <footer id='footer'>
-            <a className='contact-links' id="Gmail-link" href="mailto: amandamklenk3@gmail.com" target="_blank" rel="noopener noreferrer" class="btn contact-details">
-                <img class="Gmail-icon" src={emailIcon} alt="Gmail icon"/>
+        <footer className='contact-links' id='footer'>
+            <a id="Gmail-link" href="mailto: amandamklenk3@gmail.com" target="_blank" rel="noopener noreferrer" className="btn contact-details">
+                <img id="Gmail-icon" src={emailIcon} alt="Gmail icon"/>
             </a>
-            <a className='contact-links' id="LinkedIn-link" href="https://www.linkedin.com/in/amanda-klenk/" target="_blank" rel="noopener noreferrer" class="btn contact-details">
-                <img class="LinkedIn-icon" src={linkedIn} alt="LinkedIn icon"/>
+            <a id="LinkedIn-link" href="https://www.linkedin.com/in/amanda-klenk/" target="_blank" rel="noopener noreferrer" className="btn contact-details">
+                <img id="LinkedIn-icon" src={linkedIn} alt="LinkedIn icon"/>
             </a>
-            <a className='contact-links' id="GitHub-link" href="https://github.com/amklenk" target="_blank" rel="noopener noreferrer" class="btn contact-details">
-                <img class="GitHub-icon" src={gitHub} alt="GitHub logo"/>
+            <a id="GitHub-link" href="https://github.com/amklenk" target="_blank" rel="noopener noreferrer" className="btn contact-details">
+                <img id="GitHub-icon" src={gitHub} alt="GitHub logo"/>
             </a>
-            <a className='contact-links' id="FCC-link" href="https://www.freecodecamp.org/mklenk3" target="_blank" rel="noopener noreferrer" class="btn contact-details">
-                <img class="FCC-icon" src={freeCode} alt="freeCodeCamp icon"/>
+            <a id="FCC-link" href="https://www.freecodecamp.org/mklenk3" target="_blank" rel="noopener noreferrer" className="btn contact-details">
+                <img id="FCC-icon" src={freeCode} alt="freeCodeCamp icon"/>
             </a>
-           <h4 class="footer-name">AMANDA KLENK</h4>
+           <h4 className="footer-name">AMANDA KLENK</h4>
                 &copy; 2022
         </footer>
     )
