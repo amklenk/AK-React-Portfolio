@@ -79,7 +79,7 @@ body {
   width: 80%;
 }
 
-#about-title{
+#about-title, #portfolio-title{
   border-bottom: solid var(--secondary-color) 2px;
 }
 
@@ -91,9 +91,21 @@ body {
 }
 /* About section end */
 
+/* Portfolio styling section */
+/* .project-btn{
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(53, 72, 102, 1);
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.4s;
+} */
+/* Portfolio styling end */
+
 /* Footer section styling */
 #footer{
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
