@@ -79,7 +79,7 @@ body {
   width: 80%;
 }
 
-#about-title, #portfolio-title{
+#about-title, #portfolio-title, #contact-title{
   border-bottom: solid var(--secondary-color) 2px;
 }
 
