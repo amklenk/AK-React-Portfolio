@@ -34,8 +34,8 @@ function Footer(){
                 <img id={icon.name} src={icon.src} alt={icon.alt}/>
             </a> 
             ))}
-           {/* <h4 className="footer-name">AMANDA KLENK</h4> */}
-                {/* &copy; 2022 */}
+           {/* <h4 className="footer-name row">AMANDA KLENK</h4>
+                &copy; 2022 */}
         </footer>
     )
 }
