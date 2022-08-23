@@ -79,7 +79,7 @@ body {
   width: 80%;
 }
 
-#about-title, #portfolio-title, #contact-title{
+#about-title, #portfolio-title, #contact-title, #resume-title{
   border-bottom: solid var(--secondary-color) 2px;
 }
 
@@ -102,6 +102,12 @@ body {
   transition-duration: 0.4s;
 } */
 /* Portfolio styling end */
+
+/* Resume styling section */
+iframe{
+  margin: 0 auto;
+}
+/* Resume styling end */
 
 /* Footer section styling */
 #footer{
