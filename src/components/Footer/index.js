@@ -22,20 +22,20 @@ function Footer(){
         },
         {
             name: 'FCC-icon',
-            src: require('../../assets/icons/fcc-icon.png'),
+            src: require('../../assets/icons/fCC-icon.png'),
             href: 'https://www.freecodecamp.org/amklenk3',
             alt: 'freeCodeCamp icon'
         }
     ]
     return(
-        <footer className='contact-links' id='footer'>
+        <footer className='contact-links d-flex justify-content-center' id='footer'>
             {icons.map((icon) => (
                <a href={icon.href} target="_blank" rel="noopener noreferrer" className="btn contact-details">
                 <img id={icon.name} src={icon.src} alt={icon.alt}/>
             </a> 
             ))}
-           <h4 className="footer-name">AMANDA KLENK</h4>
-                &copy; 2022
+           {/* <h4 className="footer-name">AMANDA KLENK</h4> */}
+                {/* &copy; 2022 */}
         </footer>
     )
 }

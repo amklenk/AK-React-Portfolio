@@ -79,6 +79,10 @@ body {
   width: 80%;
 }
 
+#about-title{
+  border-bottom: solid var(--secondary-color) 2px;
+}
+
 #about-text {
   text-align: center;
   align-self: center;
