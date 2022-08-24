@@ -5,26 +5,27 @@ const headerStyles = {
     color: "white"
 }
 
-function Header (){
+function Header ({ currentPage, handlePageChange }){
 return(
 <header id="header">
     <h2 class="nav-name">AMANDA KLENK</h2>
     <nav class="nav-links">
         <ul id="nav-ul" >
             <li class="nav-sections">
-                <a href="#about-section" style={headerStyles}>About</a>
+                <a href="#about-section" onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} style={headerStyles}>About</a>
             </li>
             <li class="nav-sections">
-                <span>Skills</span>
+                <a href="#portfolio-section" onClick={() => handlePageChange('Portfolio')}
+                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Portfolio</a>
             </li>
             <li class="nav-sections">
-                <span>Portfolio</span>
+                <a href="#contact-section" onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Contact</a>
             </li>
             <li class="nav-sections">
-                <span>Contact</span>
-            </li>
-            <li class="nav-sections">
-                <span>Resume</span>
+                <a href="#resume-section" onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Resume</a>
             </li>
         </ul>
     </nav>

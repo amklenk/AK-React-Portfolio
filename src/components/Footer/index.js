@@ -28,14 +28,18 @@ function Footer(){
         }
     ]
     return(
-        <footer className='contact-links d-flex justify-content-center' id='footer'>
+        <footer className='contact-links d-flex flex-column align-items-center' id='footer'>
+            <div>
             {icons.map((icon) => (
                <a href={icon.href} target="_blank" rel="noopener noreferrer" className="btn contact-details">
                 <img id={icon.name} src={icon.src} alt={icon.alt}/>
             </a> 
             ))}
-           {/* <h4 className="footer-name row">AMANDA KLENK</h4>
-                &copy; 2022 */}
+            </div>
+            <div className='mb-3 text-center'>
+                <h5 className="footer-name row">AMANDA KLENK</h5>
+                &copy; 2022
+            </div>
         </footer>
     )
 }

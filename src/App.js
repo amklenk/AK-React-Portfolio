@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 // Why don't I need to import this?
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,13 +10,31 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="App">
-      <Header/>
-      <About/>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+      {renderPage()}
+      {/* <About/>
       <Portfolio/>
       <Contact/>
-      <Resume/>
+      <Resume/> */}
       <Footer/>
     </div>
   );

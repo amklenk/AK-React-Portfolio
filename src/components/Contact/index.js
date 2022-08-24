@@ -9,7 +9,7 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(event) {
-        if(event.target.name === 'email'){
+        if(event.target.name === 'Email'){
             const isValid = validateEmail(event.target.value);
             // if it isn't valid, set the state of the error message to the following
             if (!isValid) {
@@ -38,7 +38,7 @@ function Contact() {
     
   return (
     <section>
-    <h2 id='contact-title' className='mx-5 mt-5 mb-3' style={{width: '8%'}}>Contact</h2>
+    <h2 id='contact-title' className='mx-5 mt-5 mb-3' style={{ width: '8%' }}>Contact</h2>
     <Form className='mx-5' onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Name:</Form.Label>
