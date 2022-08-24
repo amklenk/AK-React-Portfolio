@@ -8,10 +8,10 @@ const headerStyles = {
 function Header ({ currentPage, handlePageChange }){
 return(
 <header id="header">
-    <h2 class="nav-name">AMANDA KLENK</h2>
-    <nav class="nav-links">
+    <h2 className="nav-name">AMANDA KLENK</h2>
+    <nav className="nav-links">
         <ul id="nav-ul" >
-            <li class="nav-sections">
+            <li className="nav-sections">
                 <a href="#about-section" onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} style={headerStyles}>About</a>
             </li>

@@ -31,12 +31,12 @@ body {
 /*header*/
 #header,
 #footer {
-  background-color: rgba(53, 72, 102, 0.95);
   display: flex;
   flex-wrap: wrap;
 }
 
 #header {
+  background-color: rgba(53, 72, 102, 0.95);
   justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
@@ -46,17 +46,10 @@ body {
   padding: 5px 10px;
 }
 
-#header nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
-
 .nav-links li {
   list-style: none;
   color: var(--quarternary-color);
-  display: inline;
+  display: inline-block;
   margin: 5px 10px 5px 10px;
   font-size: 20px;
 }
@@ -91,18 +84,6 @@ body {
 }
 /* About section end */
 
-/* Portfolio styling section */
-/* .project-btn{
-  font-family: "Raleway", sans-serif;
-  background-color: rgba(53, 72, 102, 1);
-  border: none;
-  padding: 5px 10px;
-  color: white;
-  font-weight: bold;
-  transition-duration: 0.4s;
-} */
-/* Portfolio styling end */
-
 /* Resume styling section */
 iframe{
   margin: 0 auto;
@@ -111,7 +92,6 @@ iframe{
 
 /* Footer section styling */
 #footer{
-  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -124,10 +104,10 @@ iframe{
   width: 50px;
   height: 50px;
   margin: var(--default-margin);
+  color: var(--primary-color);
 }
 
 .contact-links img:hover {
   box-shadow: var(--box-shadow-glow);
 }
-
 /* Footer section end */
