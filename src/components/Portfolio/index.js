@@ -52,15 +52,15 @@ const projects =[
     <h2 id='portfolio-title' className='mb-3' style={{width: '10%'}}>Portfolio</h2>
     <div className='d-flex flex-wrap justify-content-between container'>
     {projects.map((projects) => (
-    <Card className='mb-5 col-4' style={{ width: '25em' }}>
-      <Card.Img variant="top" src= {projects.src} />
+    <Card className='mb-5 col-4 port-card' style={{ width: '25em' }}>
+      <Card.Img variant="top" src= {projects.src} className='card-image' />
       <Card.Body>
         <Card.Title>{projects.name}</Card.Title>
         <Card.Text>
         {projects.description}
         </Card.Text>
-        <a href={projects.gitHub} target="_blank" rel="noopener noreferrer"><Button variant='dark' className='me-3'>GitHub</Button></a>
-        <a href={projects.liveSite} target="_blank" rel="noopener noreferrer"><Button variant="dark">Live Site</Button></a>
+        <a href={projects.gitHub} target="_blank" rel="noopener noreferrer"><Button className='me-3 border-light btn'>GitHub</Button></a>
+        <a href={projects.liveSite} target="_blank" rel="noopener noreferrer"><Button className='border-light btn'>Live Site</Button></a>
       </Card.Body>
     </Card>
     ))}

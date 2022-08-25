@@ -1,9 +1,8 @@
 :root {
-  --primary-color: #344966;
+  --primary-color: rgba(19, 35, 48, 0.5);
   --secondary-color: #F28C28;
   --tertiary-color: #0d1821;
   --quarternary-color: #fff;
-  --quinary-color: #d6e3f8;
   --box-shadow-glow: 0 0 5px 5px #fff;
   --default-margin: 10px;
   --tile-border: 2px solid ##d6e3f8;
@@ -18,15 +17,15 @@
 }
 /*end broswer styling*/
 
-/*body styling*/
-body {
-  position: relative;
+/* App styling */
+.App{
+  background-color: var(--tertiary-color);
+  color: var(--quarternary-color);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
 }
-/*end body styling*/
+/* App styling */
 
 /*header*/
 #header,
@@ -36,7 +35,7 @@ body {
 }
 
 #header {
-  background-color: rgba(53, 72, 102, 0.95);
+  background-color: var(--primary-color);
   justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
@@ -72,6 +71,7 @@ body {
   width: 80%;
 }
 
+
 #about-title, #portfolio-title, #contact-title, #resume-title{
   border-bottom: solid var(--secondary-color) 2px;
 }
@@ -82,7 +82,30 @@ body {
   font-weight: bold;
   font-size: 1.25em;
 }
+
+#about-text a:hover{
+  box-shadow: var(--box-shadow-glow);
+}
 /* About section end */
+
+/* Portfolio styling section */
+.port-card{
+  background-color: rgba(19, 35, 48, 1) !important;
+}
+
+.card-image:hover{
+  opacity: 0.5;
+}
+
+.btn{
+  background-color: var(--tertiary-color) !important;
+  color: var(--secondary-color) !important;
+}
+
+.btn:hover{
+  box-shadow: var(--box-shadow-glow);
+}
+/* Portfolio section end */
 
 /* Resume styling section */
 iframe{
@@ -93,6 +116,7 @@ iframe{
 /* Footer section styling */
 #footer{
   bottom: 0;
+  margin-top: auto;
   width: 100%;
 }
 

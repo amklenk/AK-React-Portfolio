@@ -101,7 +101,7 @@ function Contact() {
                 </div>
               )}
 
-      <Button variant="dark" type="submit" onClick={submit} className='mb-3'>
+      <Button variant="dark" type="submit" onClick={submit} className='mb-3 border-light'>
         Submit
       </Button>
     </Form>

@@ -7,7 +7,7 @@ const headerStyles = {
 
 function Header ({ currentPage, handlePageChange }){
 return(
-<header id="header">
+<header id="header" className='d-flex align-items-center'>
     <h2 className="nav-name">AMANDA KLENK</h2>
     <nav className="nav-links">
         <ul id="nav-ul" >
