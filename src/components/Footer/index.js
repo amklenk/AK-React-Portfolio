@@ -31,7 +31,7 @@ function Footer(){
         <footer className='contact-links d-flex flex-column align-items-center' id='footer'>
             <div>
             {icons.map((icon) => (
-               <a href={icon.href} target="_blank" rel="noopener noreferrer" className="btn contact-details">
+               <a href={icon.href} target="_blank" rel="noopener noreferrer" className="btn contact-details ms-3">
                 <img id={icon.name} src={icon.src} alt={icon.alt}/>
             </a> 
             ))}

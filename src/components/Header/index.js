@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../assets/AKLogo.png'
 
 const headerStyles = {
     textDecoration: "none",
@@ -8,7 +9,7 @@ const headerStyles = {
 function Header ({ currentPage, handlePageChange }){
 return(
 <header id="header" className='d-flex align-items-center'>
-    <h2 className="nav-name">AMANDA KLENK</h2>
+    <img src={Logo} alt='AK Logo' style={{ width: '50px'}}/>
     <nav className="nav-links">
         <ul id="nav-ul" >
             <li className="nav-sections">

@@ -19,10 +19,11 @@ const projects =[
         liveSite: 'https://desolate-temple-87705.herokuapp.com/'
     },
     {
-        name: 'Team Profile Generator',
-        src: require('../../assets/project-images/team-profile.png'),
-        description: 'An application to help a manager keep track of their team and each team member\'s information',
-        gitHub: "https://github.com/amklenk/Team-Profile-Generator",
+        name: 'Note Taker',
+        src: require('../../assets/project-images/note-taker.png'),
+        description: 'An application that helps a small business owner to write and save their notes to organize and keep track of their thoughts and tasks.',
+        gitHub: 'https://github.com/amklenk/Note-Taker',
+        liveSite: 'https://morning-escarpment-45926.herokuapp.com/'
     },
     {
         name: 'Workout Zen',
@@ -49,18 +50,18 @@ const projects =[
 
   return (
     <section className='mx-5 mt-5 text-center'>
-    <h2 id='portfolio-title' className='mb-3' style={{width: '10%'}}>Portfolio</h2>
+    <h2 id='portfolio-title' className='mb-3'>Check out my work.</h2>
     <div className='d-flex flex-wrap justify-content-between container'>
     {projects.map((projects) => (
-    <Card className='mb-5 col-4 port-card' style={{ width: '25em' }}>
-      <Card.Img variant="top" src= {projects.src} className='card-image' />
+    <Card className='mb-5 col-4 port-card' style={{ width: '25em' }} key={projects.name}>
+      <Card.Img variant='top' src= {projects.src} className='card-image' />
       <Card.Body>
         <Card.Title>{projects.name}</Card.Title>
         <Card.Text>
         {projects.description}
         </Card.Text>
-        <a href={projects.gitHub} target="_blank" rel="noopener noreferrer"><Button className='me-3 border-light btn'>GitHub</Button></a>
-        <a href={projects.liveSite} target="_blank" rel="noopener noreferrer"><Button className='border-light btn'>Live Site</Button></a>
+        <a href={projects.gitHub} target='_blank' rel='noopener noreferrer'><Button className='me-3 border-light btn'>GitHub</Button></a>
+        <a href={projects.liveSite} target='_blank' rel='noopener noreferrer'><Button className='border-light btn'>Live Site</Button></a>
       </Card.Body>
     </Card>
     ))}

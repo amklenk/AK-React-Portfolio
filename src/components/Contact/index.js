@@ -78,7 +78,7 @@ function Contact() {
 
   return (
     <section>
-    <h2 id='contact-title' className='mx-5 mt-5 mb-3' style={{ width: '8%' }}>Contact</h2>
+    <h2 id='contact-title' className='mx-5 mt-5 mb-3'>Want to know more?</h2>
     <Form className='mx-5' onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Name:</Form.Label>
