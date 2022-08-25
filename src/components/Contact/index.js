@@ -12,7 +12,7 @@ function Contact() {
     const [formState, setFormState] = useState({ name:'', email:'', message:'' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
-  // function to validate
+    // function to validate
     function handleChange(event) {
         if(event.target.name === 'Email'){
             const isValid = validateEmail(event.target.value);
@@ -35,7 +35,7 @@ function Contact() {
         if (!errorMessage){
             setFormState({ ...formState, [event.target.name]: event.target.value });}
     }
-  // funtion to submit
+    // funtion to submit
     function handleSubmit(event) {
         event.preventDefault();
         console.log(formState);
@@ -46,7 +46,7 @@ function Contact() {
     const [emailEJS, setEmail] = useState('');
     const [messageEJS, setMessage] = useState('');
     const [emailSent, setEmailSent] = useState(false);
-  // function to submit to EmailJS
+    // function to submit to EmailJS
     const submit = () => {
       if (nameEJS && emailEJS && messageEJS) {
         const serviceId = process.env.REACT_APP_SERVICE_ID;
@@ -66,12 +66,16 @@ function Contact() {
           setEmail('');
           setMessage('');
           setEmailSent(true);
-          console.log('Email sent!');
+          setIsVisible(true);
+          // console.log('Email sent!');
       } else {
           alert('Please fill in all fields.');
       }
   };
     
+  // setting change for visibility of email message
+  const [isVisible, setIsVisible] = useState(false);
+
   return (
     <section>
     <h2 id='contact-title' className='mx-5 mt-5 mb-3' style={{ width: '8%' }}>Contact</h2>
@@ -97,11 +101,11 @@ function Contact() {
                 </div>
               )}
 
-      <Button variant="dark" type="submit" onClick={submit}>
+      <Button variant="dark" type="submit" onClick={submit} className='mb-3'>
         Submit
       </Button>
-      <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
     </Form>
+    {isVisible && emailSent && <span className='ms-5'>Thank you for your message, we will be in touch in no time!</span>}
     </section>
   );
 }
