@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 // Why don't I need to import this?
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from './components/Hero'
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -30,7 +29,6 @@ function App() {
   return (
     <div className="App">
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-      <Hero/>
       {renderPage()}
       {/* <About/>
       <Portfolio/>

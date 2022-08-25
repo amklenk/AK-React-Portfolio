@@ -1,5 +1,6 @@
 import React from 'react';
 import portfolioPicture from '../../assets/portfolio-pic.jpg';
+import Dots from '../../assets/dots-vert.png'
 
 const fontStyles = {
     textDecoration: "none",
@@ -10,7 +11,7 @@ function About(){
     return(
         <section className='mt-5 d-flex flex-column' id='bioinfodiv'>
         <div className='w-100 mt-3'>
-            <h1 id='about-title' className='mb-5'>Hi, I'm Amanda Klenk.</h1>
+            <h1 id='about-title'>Hi, I'm Amanda Klenk.</h1>
         </div>
         <div className='d-flex'>
             <p id='about-text'>
@@ -18,7 +19,8 @@ function About(){
             have a passion for accessible, responsive, and dynamic web design. Want to see more? Follow <a href='https://github.com/amklenk' target='_blank' rel='noopener noreferrer' style={fontStyles} className='bio-a'>amklenk</a> on GitHub. Questions? Contact me
             via email at <a href='mailto: amandamklenk3@gmail.com' target='_blank' rel='noopener noreferrer' style={fontStyles} className='bio-a'>amandamklenk@gmail.com</a>.
             </p>
-            <img className='my-3 mx-3' src={portfolioPicture} alt='Amanda Klenk' style={{ width: '33%'}}></img>
+            <img className='my-3 mx-3 align-self-center' src={portfolioPicture} alt='Amanda Klenk' style={{ width: '33%'}} id='port-photo'></img>
+            <img src={Dots} alt="dots graphic" className='dots-vert'/>
         </div>
         </section>
     )
