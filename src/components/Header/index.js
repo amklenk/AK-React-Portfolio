@@ -6,32 +6,22 @@ const headerStyles = {
     color: "white"
 }
 
-function Header ({ currentPage, handlePageChange }){
+function Header ({ currentPage, handlePageChange}){
+const categories = ['About', 'Portfolio', 'Skills', 'Contact', 'Resume'];
+
 return(
 <header id="header" className='d-flex align-items-center'>
     <img src={Logo} alt='AK Logo' style={{ width: '70px'}}/>
     <nav className="nav-links">
         <ul id="nav-ul" >
-            <li className={currentPage==='About' ? 'pageActive' : ''}>
-                <a href="#about-section" onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} style={headerStyles}>About</a>
-            </li>
-            <li className={currentPage==='Portfolio' ? 'pageActive' : ''}>
-                <a href="#portfolio-section" onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Portfolio</a>
-            </li>
-            <li className={currentPage==='Skills' ? 'pageActive' : ''}>
-                <a href="#contact-section" onClick={() => handlePageChange('Skills')}
-                className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Skills</a>
-            </li>
-            <li className={currentPage==='Contact' ? 'pageActive' : ''}>
-                <a href="#contact-section" onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Contact</a>
-            </li>
-            <li className={currentPage==='Resume' ? 'pageActive' : ''}>
-                <a href="#resume-section" onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Resume</a>
-            </li>
+            {categories.map(name => {
+                return(
+                <li className={currentPage === name ? 'pageActive' : ''}>
+                    <a href={`#${name.toLowerCase()}-section`} onClick={() => handlePageChange(name)}
+                    className={currentPage === name ? 'nav-link active' : 'nav-link'} style={headerStyles}>{name}</a>
+                </li>
+                )
+            })}
         </ul>
     </nav>
 </header>
