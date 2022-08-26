@@ -122,12 +122,27 @@ height: 50%;
   box-shadow: var(--box-shadow-glow);
 }
 
-#portfolio-title, #contact-title, #resume-title{
+#portfolio-title, #contact-title, #resume-title, #skills-title{
   color: var(--secondary-color);
   font-size: 50px;
   text-align: left;
 }
-/* Portfolio section end */
+/* Portfolio styling end */
+
+/* Skills section styling */
+.icon-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.skill-icon{
+  height: 100px;
+}
+
+#Mongoose {
+  height: 80px;
+}
+/* Skills styling end */
 
 /* Resume styling section */
 iframe{

@@ -20,6 +20,10 @@ return(
                 <a href="#portfolio-section" onClick={() => handlePageChange('Portfolio')}
                 className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Portfolio</a>
             </li>
+            <li className={currentPage==='Skills' ? 'pageActive' : ''}>
+                <a href="#contact-section" onClick={() => handlePageChange('Skills')}
+                className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Skills</a>
+            </li>
             <li className={currentPage==='Contact' ? 'pageActive' : ''}>
                 <a href="#contact-section" onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} style={headerStyles}>Contact</a>

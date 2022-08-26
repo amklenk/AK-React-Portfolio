@@ -5,6 +5,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -21,6 +22,9 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
+    if (currentPage === 'Skills'){
+      return <Skills />
+    }
     return <Resume />;
   };
 
@@ -30,10 +34,6 @@ function App() {
     <div className="App">
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
-      {/* <About/>
-      <Portfolio/>
-      <Contact/>
-      <Resume/> */}
       <Footer/>
     </div>
   );
