@@ -11,7 +11,7 @@ const categories = ['About', 'Portfolio', 'Skills', 'Contact', 'Resume'];
 
 return(
 <header id="header" className='d-flex align-items-center'>
-    <img src={Logo} alt='AK Logo' style={{ width: '70px'}}/>
+    <img src={Logo} alt='AK Logo' id='ak-logo'/>
     <nav className="nav-links">
         <ul id="nav-ul" >
             {categories.map(name => {

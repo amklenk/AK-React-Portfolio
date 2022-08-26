@@ -2,8 +2,8 @@ import React from 'react';
 
 function Resume() {
     return(
-        <section className='container mt-5 mb-5'>
-            <h2 id='resume-title' className='row mb-3'>Want to work with me?</h2>
+        <section className='container mt-5 mb-5 ms-3'>
+            <h2 id='resume-title' className='row mb-3 ms-3'>Want to work with me?</h2>
             <div className='row d-flex justify-content-center'>
                 <div className='col-6'>
                     <h3>Front-End Skills</h3>

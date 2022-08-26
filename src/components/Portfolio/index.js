@@ -51,9 +51,9 @@ const projects =[
   return (
     <section className='mx-5 mt-5 text-center'>
     <h2 id='portfolio-title' className='mb-3'>Check out my work.</h2>
-    <div className='d-flex flex-wrap justify-content-between container'>
+    <div className='d-flex flex-wrap justify-content-lg-between justify-content-md-center justify-content-sm-center container'>
     {projects.map((projects) => (
-    <Card className='mb-5 col-sm-12 col-md-3 col-lg-4 port-card w-sm-100' style={{ width: '25em' }} key={projects.name}>
+    <Card className='mb-5 mx-3 col-sm-12 col-md-3 col-lg-4 port-card v-md-100' key={projects.name}>
       <Card.Img variant='top' src= {projects.src} className='card-image' />
       <Card.Body>
         <Card.Title>{projects.name}</Card.Title>
