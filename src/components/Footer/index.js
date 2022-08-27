@@ -23,7 +23,7 @@ function Footer(){
         {
             name: 'FCC-icon',
             src: require('../../assets/icons/fCC-icon.png'),
-            href: 'https://www.freecodecamp.org/amklenk3',
+            href: 'https://www.freecodecamp.org/mklenk3',
             alt: 'freeCodeCamp icon'
         }
     ]
