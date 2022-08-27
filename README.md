@@ -35,7 +35,7 @@ to install the dependencies locally.
 
 ## Links
 - [GitHub Repo](https://github.com/amklenk/AK-React-Portfolio)
-- [Deployed Application]()
+- [Deployed Application](https://amklenk.github.io/AK-React-Portfolio/)
 
 ## Usage
 The following are screenshots of each rendered section of the deployed site:
