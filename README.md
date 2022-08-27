@@ -6,9 +6,7 @@
 This application is for a potential web developer to showcase their skills to an employer who is looking for candidates with experience building single-page applications. The employer should be able to view the potential employee's deployed React portfolio of work samples so that the employer can assess whether the portfolio's creator is a good candidate for an open position. The following were the additional requirements of the application:
 
 * When the employer loads the portfolio, they are presented with a page containing a header, a section for content, and a footer.
-* When the employer views the header, they are presented with the
-<!-- TODO: fix icon for now -->
-developer's name and navigation with titles corresponding to different sections of the portfolio.
+* When the employer views the header, they are presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
 * When the employer views the navigation titles, they are presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
 * When the employer clicks on a navigation title, they are presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
 * When the employer loads the portfolio for the first time, the About Me title and section are selected by default.
