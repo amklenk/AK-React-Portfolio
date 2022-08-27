@@ -38,22 +38,22 @@ to install the dependencies locally.
 - [Deployed Application]()
 
 ## Usage
-The following are screenshots of each rendered section of the deployed site: 
+The following are screenshots of each rendered section of the deployed site:
 
 About Me:
-![About Me Section]()
+![About Me Section](./src/assets/README-images/aboutme.png)
 
 Portfolio:
-![Portfolio Section]()
+![Portfolio Section](./src/assets/README-images/portfolio.png)
 
 Skills:
-![Skills Section]()
+![Skills Section](./src/assets/README-images/skills.png)
 
 Contact:
-![Contact Section]()
+![Contact Section](./src/assets/README-images/contact.png)
 
 Resume:
-![Resume Section]()
+![Resume Section](./src/assets/README-images/resume.png)
 
 The public directory contains the index.html file, where the root div (from index.js in the root of src) is rendered. The src folder contains the assets directory, the components directory, the utils directory, App.js (where all of the components are rendered), index.css (the main style sheet), index.js (for rendering App), and the reportWebVitals file. The assets directory contains the directories for the project images, the skills icons, the footer icons, and the README images. The components directory contains directories for each component that contains an index.js for rendering each. The utils directory contains a helper function for validating an email address. The app is run in the terminal by typing
 `````````
