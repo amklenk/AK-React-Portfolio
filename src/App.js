@@ -13,7 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
-    if (currentPage === 'About') {
+    if (currentPage === 'About Me') {
       return <About />;
     }
     if (currentPage === 'Portfolio') {

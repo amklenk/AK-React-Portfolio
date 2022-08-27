@@ -7,7 +7,7 @@ const headerStyles = {
 }
 
 function Header ({ currentPage, handlePageChange}){
-const categories = ['About', 'Portfolio', 'Skills', 'Contact', 'Resume'];
+const categories = ['About Me', 'Portfolio', 'Skills', 'Contact', 'Resume'];
 
 return(
 <header id="header" className='d-flex align-items-center'>
