@@ -1,6 +1,8 @@
 import React from 'react';
 
+// function to render the Footer component
 function Footer(){
+    // object that contains the information for each icon to map and render
     const icons = [
         {
             name: 'Gmail-icon',

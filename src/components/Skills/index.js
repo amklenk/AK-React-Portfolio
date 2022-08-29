@@ -1,5 +1,6 @@
 import React from 'react';
 
+// funciton to render the Skills component
 function Skills(){
     // icons object will all of the skills icons
     const icons = [

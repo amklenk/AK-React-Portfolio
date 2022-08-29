@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+// function that renders the application in index.js and then in index.html in public directory
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me');
 

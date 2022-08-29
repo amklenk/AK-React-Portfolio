@@ -59,7 +59,7 @@ The public directory contains the index.html file, where the root div (from inde
 `````````
 npm start
 `````````
-into the command line. This will turn on the server at localhost:3001. The app can also be run by visiting the live site, see the link in the Links section.
+into the command line. This will turn on the server at localhost:3001. The app can also be run by visiting the live site, see the link in the Links section. To run EmailJS, you will need to sign up and fill out the .env.example file with your public service id, template, id, and user id. Then change the file name to .env. 
 
 ## License
 The badge at the top of the page shows that this project is licensed under MIT. The link for that license is shown below.

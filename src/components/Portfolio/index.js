@@ -2,7 +2,9 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+// function that renders the Portfolio component
 function Portfolio() {
+  // object that contains the information for each project card
 const projects =[
     {
         name: 'Bug Bash',

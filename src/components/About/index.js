@@ -2,11 +2,13 @@ import React from 'react';
 import portfolioPicture from '../../assets/portfolio-pic.jpg';
 import Dots from '../../assets/dots-vert.png'
 
+// style component
 const fontStyles = {
     textDecoration: "none",
     color: "#F28C28"
 }
 
+// function for rendering the About component
 function About(){
     return(
         <section className='mt-5 d-flex flex-column' id='bioinfodiv'>

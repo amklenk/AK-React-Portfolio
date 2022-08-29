@@ -96,7 +96,8 @@ height: 50%;
 }
 
 #about-text {
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
   align-self: center;
   font-weight: bold;
   font-size: 1.25em;
@@ -109,6 +110,7 @@ height: 50%;
 #port-photo{
   width: 33%;
   height: 50%;
+  box-shadow: var(--box-shadow-glow);
 }
 /* About section end */
 
@@ -116,6 +118,7 @@ height: 50%;
 .port-card{
   background-color: rgba(19, 35, 48, 1) !important;
   width: 25em !important;
+  box-shadow: var(--box-shadow-glow);
 }
 
 .btn{
