@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AK-React-Portfolio/static/css/main.65e6b30e.css",
-    "main.js": "/AK-React-Portfolio/static/js/main.d5a22a58.js",
+    "main.css": "/AK-React-Portfolio/static/css/main.71759755.css",
+    "main.js": "/AK-React-Portfolio/static/js/main.d537e1fa.js",
     "static/js/787.c9db3935.chunk.js": "/AK-React-Portfolio/static/js/787.c9db3935.chunk.js",
     "static/media/portfolio-pic.jpg": "/AK-React-Portfolio/static/media/portfolio-pic.b2c9f20728f340ff3cf4.jpg",
     "static/media/weathersitescreenshot.png": "/AK-React-Portfolio/static/media/weathersitescreenshot.78c6cc2f003080bbef79.png",
@@ -28,12 +28,12 @@
     "static/media/mysql.png": "/AK-React-Portfolio/static/media/mysql.9e472e2d228558c1003b.png",
     "static/media/git.png": "/AK-React-Portfolio/static/media/git.22c8ae6a83114b214bc2.png",
     "index.html": "/AK-React-Portfolio/index.html",
-    "main.65e6b30e.css.map": "/AK-React-Portfolio/static/css/main.65e6b30e.css.map",
-    "main.d5a22a58.js.map": "/AK-React-Portfolio/static/js/main.d5a22a58.js.map",
+    "main.71759755.css.map": "/AK-React-Portfolio/static/css/main.71759755.css.map",
+    "main.d537e1fa.js.map": "/AK-React-Portfolio/static/js/main.d537e1fa.js.map",
     "787.c9db3935.chunk.js.map": "/AK-React-Portfolio/static/js/787.c9db3935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65e6b30e.css",
-    "static/js/main.d5a22a58.js"
+    "static/css/main.71759755.css",
+    "static/js/main.d537e1fa.js"
   ]
 }
