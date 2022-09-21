@@ -7,6 +7,14 @@ function Portfolio() {
   // object that contains the information for each project card
 const projects =[
     {
+      name: 'Carbon Footsteps',
+      src: require('../../assets/project-images/carbon-footsteps.png'),
+      description: "An application for an enviromentally-conscious user who wants to calculate their carbon footprint and learn more about how to offset it in order to positively impact the world's climate.",
+      gitHub: 'https://github.com/nmsiegel1/carbon-footprint',
+      liveSite: 'https://carbon-footsteps.herokuapp.com/'
+
+    },
+    {
         name: 'Bug Bash',
         src: require('../../assets/project-images/bug-bash.png'),
         description: 'An application that creates a community for new developers to share and fix their coding bugs.',
