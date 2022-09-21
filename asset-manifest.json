@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AK-React-Portfolio/static/css/main.71759755.css",
-    "main.js": "/AK-React-Portfolio/static/js/main.07cbd256.js",
+    "main.js": "/AK-React-Portfolio/static/js/main.5c37bc37.js",
     "static/js/787.c9db3935.chunk.js": "/AK-React-Portfolio/static/js/787.c9db3935.chunk.js",
+    "static/media/carbon-footsteps.png": "/AK-React-Portfolio/static/media/carbon-footsteps.b22fa72ff0478a07d36f.png",
     "static/media/portfolio-pic.jpg": "/AK-React-Portfolio/static/media/portfolio-pic.b2c9f20728f340ff3cf4.jpg",
     "static/media/weathersitescreenshot.png": "/AK-React-Portfolio/static/media/weathersitescreenshot.78c6cc2f003080bbef79.png",
     "static/media/bug-bash.png": "/AK-React-Portfolio/static/media/bug-bash.c0f1b3e748e037ca944d.png",
     "static/media/workoutzen.png": "/AK-React-Portfolio/static/media/workoutzen.4d28734b7e968075bec6.png",
     "static/media/tech-blog.png": "/AK-React-Portfolio/static/media/tech-blog.8dd84e960898ec5b3f3a.png",
-    "static/media/carbon-footsteps.png": "/AK-React-Portfolio/static/media/carbon-footsteps.7274fd32d6e11d447413.png",
     "static/media/quiz.png": "/AK-React-Portfolio/static/media/quiz.7da3f689078dc932445d.png",
     "static/media/email-icon.png": "/AK-React-Portfolio/static/media/email-icon.ee792a791c523fbb2b27.png",
     "static/media/mongoose.png": "/AK-React-Portfolio/static/media/mongoose.2bdd8498a6f5e48a1205.png",
@@ -30,11 +30,11 @@
     "static/media/git.png": "/AK-React-Portfolio/static/media/git.22c8ae6a83114b214bc2.png",
     "index.html": "/AK-React-Portfolio/index.html",
     "main.71759755.css.map": "/AK-React-Portfolio/static/css/main.71759755.css.map",
-    "main.07cbd256.js.map": "/AK-React-Portfolio/static/js/main.07cbd256.js.map",
+    "main.5c37bc37.js.map": "/AK-React-Portfolio/static/js/main.5c37bc37.js.map",
     "787.c9db3935.chunk.js.map": "/AK-React-Portfolio/static/js/787.c9db3935.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71759755.css",
-    "static/js/main.07cbd256.js"
+    "static/js/main.5c37bc37.js"
   ]
 }
